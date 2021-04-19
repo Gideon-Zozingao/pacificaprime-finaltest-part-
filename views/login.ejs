@@ -5,19 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 <body>
-    <h1>login</h1>
+    <div class="container">
+        <h1>login</h1>
 <hr>
-<a href="/createUser">Create an account</a> | 
-<a href="/login">Login</a> | 
-<a href="/message">post a message</a> | 
-<a href="/">Home</a> | 
+        <a href="/createUser">Create an account</a> | 
+        
+        <a href="/message">post a message</a> | 
+         
     <hr>
     <form action="/login" method="POST">
-        username: <input type="text" name="username"><br>
-        password: <input type="text" name="password"><br>
-        <button>hope this works</button>
+        username: <input type="text" name="username" class="form-control"><br>
+        password: <input type="text" name="password"class="form-control"><br>
+        <button class="btn btn-primary">Login</button>
     </form>
+    </div>
+    
 </body>
 </html>
